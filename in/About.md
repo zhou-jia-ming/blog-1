@@ -1,67 +1,29 @@
 title: 关于
-summary: 介绍本博客的基本功能
-authors: yancai
-publish_date: 2015-12-15
+summary: 为什么写这个博客?
+authors: Tyler
+publish_date: 2016-10-07
 tags: 简介
-      Markdown
-
-# 关于本文
-
-本博客是本人（Yan）开发的一个基于Markdown的博客系统，支持基本的Markdown语法及一些常用的扩展语法。本文将对本博客所支持的Markdown语法做介绍。
-
-# Markdown基本语法
-
-Markdown基本语法参见：  
-[https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
-
-# 扩展的Markdown特殊语法
-
-本博客Markdown的生成基于Python的Markdown包，因此本博客支持的扩展语法也源于Python Markdown，参见：[Python Markdown](https://pythonhosted.org/Markdown/)
-
-## META信息的编写方式
-
-META支持作者为Markdown文件添加自定义的一些信息，这些自定义的信息将在页面右侧展示和查看是起作用，目前支持如下信息：
-
-| 关键字       | 含义         |
-|:-------------|:-------------|
-| title        | 文章标题     |
-| summary      | 摘要         |
-| author       | 作者         |
-| publish_date | 文章发布日期 |
-| tags         | 标签         |
-
-**注意：**  
-
- 1. 如果`authors`、`tags`有多个时，请换行书写；
- 2. meta信息之间不要有空行；
- 3. 全部meta结尾和正文之间至少保留一个空行；
- 4. meta信息请使用小写，并使用英文冒号`:`；
- 5. title如果为填写，则使用Markdown文件名作为标题；
 
 
-例如，本文的Meta信息如下：
+# 为什么要写博客?
 
-    title: 简介
-    summary: 介绍本博客的基本功能
-    authors: yancai
-    publish_date: 2015-12-15
-    tags: 简介
-          Markdown
+### 1. 见证成长
 
+ 曾经有一次在家收拾旧东西,翻到小学写的作文本,翻开来看一股无法言喻的羞耻感扑面而来。人啊,当自己意识到自己的愚蠢的时候就不那么愚蠢了吧。
+        没错这博客就是要记下思考的过程以便于以后来复盘。
 
-## table表格支持
+### 2. 总结技术和学技术的技术以及改进学技术的技术的技术
 
-本博客支持table语法，方便大家使用表格展示数据，基本语法如下：
+ 听起来有点绕口,意思就是记录遇到的问题,记录解决问题的思路。优化解决问题的方法。当然也不局限于遇到的问题,还有新学到的技术,读书笔记什么的。
 
-Markdown语法示例：  
+### 3. 结交志同道合的朋友
 
-    | 默认列 | 左对齐列 | 右对齐列 | 居中列 |
-    |:----|:----|----:|:----:|
-    | 早上好 | 中午好 | 下午好 | 晚上好 |
+ 朋友之间总有个东西叫同辈压力的东西来妨碍分享,陌生人之间则没有这种顾虑,如果你对我的某篇博文有什么想法<a href="mailto:zhoujiaming12345@gmail.com">请给我写邮件</a>。
 
 
-显示如下：  
 
-| 默认列 | 左对齐列 | 右对齐列 | 居中列 |
-|:-------|:---------|---------:|:------:|
-| 早上好 | 中午好   |   下午好 | 晚上好 |
+
+
+
+
+
