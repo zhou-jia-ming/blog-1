@@ -69,10 +69,15 @@ tags: command line
 
 ##6 添加一个文件并进行一次提交
 创建文件test.txt
+
     $ touch test.txt
+
 将文件添加到svn
+
     $ svn add test.txt
+
 提交到远程
+
     $ svn commit -m " some message"
 
 ##7 修改文件并提交
